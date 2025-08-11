@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | DMansion Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/workspace/dmansion-clone-static/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a class="brand" href="/workspace/dmansion-clone-static/index.html"><span class="brand-mark">D</span> Mansion Properties</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" data-collapsible>
+          <a href="/workspace/dmansion-clone-static/index.html">Home</a>
+          <a href="/workspace/dmansion-clone-static/about.html">About</a>
+          <a href="/workspace/dmansion-clone-static/listings.html">Listings</a>
+          <a href="/workspace/dmansion-clone-static/services.html">Services</a>
+          <a href="/workspace/dmansion-clone-static/contact.html" class="btn btn-primary active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small">
+        <div class="container">
+          <h1>Contact</h1>
+          <p>Reach our advisors for a confidential consultation.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container two-col">
+          <div class="col text">
+            <h2>Send us a message</h2>
+            <form id="contactForm" class="form">
+              <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required placeholder="Jane Doe" />
+              </div>
+              <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required placeholder="jane@example.com" />
+              </div>
+              <div class="form-row">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" type="text" placeholder="I am interested in…" />
+              </div>
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Tell us a bit about your goals"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+              <p class="form-note small">We typically respond within 24 hours.</p>
+            </form>
+          </div>
+          <div class="col text">
+            <h2>Contact details</h2>
+            <ul class="contact-list">
+              <li><strong>Email</strong>: hello@example.com</li>
+              <li><strong>Phone</strong>: +1 (555) 123-4567</li>
+              <li><strong>Hours</strong>: Mon–Sat, 9am–7pm</li>
+              <li><strong>Office</strong>: 123 Luxury Ave, Suite 500, Metropolis</li>
+            </ul>
+            <div class="map-embed">
+              <iframe title="Map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.835434509374!2d144.95373531550413!3d-37.81627974202157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ5JzAwLjYiUyAxNDTCsDU3JzE0LjQiRQ!5e0!3m2!1sen!2s!4v1614640160930"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-light" href="/workspace/dmansion-clone-static/index.html"><span class="brand-mark">D</span> Mansion Properties</a>
+          <p class="mt-sm">Boutique real estate advisory for discerning clients.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="list-unstyled">
+            <li><a href="/workspace/dmansion-clone-static/about.html">About</a></li>
+            <li><a href="/workspace/dmansion-clone-static/listings.html">Listings</a></li>
+            <li><a href="/workspace/dmansion-clone-static/services.html">Services</a></li>
+            <li><a href="/workspace/dmansion-clone-static/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="list-unstyled">
+            <li>hello@example.com</li>
+            <li>+1 (555) 123-4567</li>
+            <li>Mon–Sat, 9am–7pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container small">© <span id="year"></span> DMansion Clone. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script src="/workspace/dmansion-clone-static/assets/js/main.js"></script>
+  </body>
+</html>
