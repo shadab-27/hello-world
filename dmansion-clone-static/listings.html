@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listings | DMansion Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/workspace/dmansion-clone-static/assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <a class="brand" href="/workspace/dmansion-clone-static/index.html"><span class="brand-mark">D</span> Mansion Properties</a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" data-collapsible>
+          <a href="/workspace/dmansion-clone-static/index.html">Home</a>
+          <a href="/workspace/dmansion-clone-static/about.html">About</a>
+          <a href="/workspace/dmansion-clone-static/listings.html" class="active">Listings</a>
+          <a href="/workspace/dmansion-clone-static/services.html">Services</a>
+          <a href="/workspace/dmansion-clone-static/contact.html" class="btn btn-primary">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="page-hero small">
+        <div class="container">
+          <h1>Property Listings</h1>
+          <p>Explore residential, commercial, and luxury properties.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="filters">
+            <button class="chip active" data-filter="all">All</button>
+            <button class="chip" data-filter="residential">Residential</button>
+            <button class="chip" data-filter="commercial">Commercial</button>
+            <button class="chip" data-filter="luxury">Luxury</button>
+          </div>
+          <div class="cards-grid" id="listingsGrid">
+            <article class="card property" data-cat="residential">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1600585154526-990dced4db0d?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Modern Family Home</h3>
+                <p>4 Bed • 3 Bath • 2,400 sqft</p>
+                <div class="card-meta">
+                  <span>$780,000</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+            <article class="card property" data-cat="commercial">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Downtown Office</h3>
+                <p>Class A • 12,000 sqft</p>
+                <div class="card-meta">
+                  <span>$5.2M</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+            <article class="card property" data-cat="luxury">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1523217582562-09d0def993a6?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Clifftop Mansion</h3>
+                <p>6 Bed • 7 Bath • 9,800 sqft</p>
+                <div class="card-meta">
+                  <span>$12,400,000</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+            <article class="card property" data-cat="residential">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Lakeview Retreat</h3>
+                <p>3 Bed • 2 Bath • 1,900 sqft</p>
+                <div class="card-meta">
+                  <span>$620,000</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+            <article class="card property" data-cat="commercial">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1434626881859-194d67b2b86f?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Retail Corner</h3>
+                <p>High foot traffic • 4,500 sqft</p>
+                <div class="card-meta">
+                  <span>$2.1M</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+            <article class="card property" data-cat="luxury">
+              <div class="card-media" style="background-image:url('https://images.unsplash.com/photo-1505691723518-36a5ac3b2d37?q=80&w=1600&auto=format&fit=crop');"></div>
+              <div class="card-body">
+                <h3>Beachfront Estate</h3>
+                <p>7 Bed • 9 Bath • 11,200 sqft</p>
+                <div class="card-meta">
+                  <span>$15,700,000</span>
+                  <a class="link" href="#">Details</a>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-light" href="/workspace/dmansion-clone-static/index.html"><span class="brand-mark">D</span> Mansion Properties</a>
+          <p class="mt-sm">Boutique real estate advisory for discerning clients.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="list-unstyled">
+            <li><a href="/workspace/dmansion-clone-static/about.html">About</a></li>
+            <li><a href="/workspace/dmansion-clone-static/listings.html">Listings</a></li>
+            <li><a href="/workspace/dmansion-clone-static/services.html">Services</a></li>
+            <li><a href="/workspace/dmansion-clone-static/contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="list-unstyled">
+            <li>hello@example.com</li>
+            <li>+1 (555) 123-4567</li>
+            <li>Mon–Sat, 9am–7pm</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container small">© <span id="year"></span> DMansion Clone. All rights reserved.</div>
+      </div>
+    </footer>
+
+    <script src="/workspace/dmansion-clone-static/assets/js/main.js"></script>
+  </body>
+</html>
